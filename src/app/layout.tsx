@@ -1,4 +1,10 @@
 import type { Metadata } from 'next'
+import { League_Spartan } from 'next/font/google'
+
+const leagueSpartan = League_Spartan({
+  subsets: ['latin'],
+  weight: ['500', '700']
+})
 
 export const metadata: Metadata = {
   title: 'Invoice App',
@@ -12,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={leagueSpartan.className}>
       <body>{children}</body>
     </html>
   )
