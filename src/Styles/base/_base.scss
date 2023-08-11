@@ -1,0 +1,12 @@
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+
+  input {
+    padding-inline: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}

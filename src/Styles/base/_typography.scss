@@ -1,42 +1,21 @@
-@mixin heading1 {
-  font-family: 'League Spartan';
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -1px;
-}
-@mixin heading2 {
-  font-family: 'League Spartan';
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -0.625px;
-}
-@mixin heading3 {
-  font-family: 'League Spartan';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: -0.8px;
+@use '../abstracts' as a;
+
+.headingM {
+  @include a.typography(32px, 700, normal, -1px);
 }
 
-@mixin body1 {
-  font-family: 'League Spartan';
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 15px;
-  letter-spacing: -0.25px;
+.headingL {
+  @include a.typography(20px, 700, normal, -0.625px);
 }
 
-@mixin body2 {
-  font-family: 'League Spartan';
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: -0.229px;
+.headingS {
+  @include a.typography(16px, 700, 24px, -0.8px);
+}
+
+.bodyL {
+  @include a.typography(12px, 500, 15px, -0.25px);
+}
+
+.bodyS {
+  @include a.typography(11px, 500, 18px, -0.229px);
 }
