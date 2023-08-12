@@ -1,6 +1,5 @@
 import { League_Spartan } from 'next/font/google'
 import type { Metadata } from 'next'
-import { League_Spartan } from 'next/font/google'
 
 export const metadata: Metadata = {
   title: 'Invoice App',
