@@ -1,0 +1,21 @@
+@use '../abstracts' as a;
+
+.headingM {
+  @include a.typography(32px, 700, normal, -1px);
+}
+
+.headingL {
+  @include a.typography(20px, 700, normal, -0.625px);
+}
+
+.headingS {
+  @include a.typography(16px, 700, 24px, -0.8px);
+}
+
+.bodyL {
+  @include a.typography(12px, 500, 15px, -0.25px);
+}
+
+.bodyS {
+  @include a.typography(11px, 500, 18px, -0.229px);
+}
