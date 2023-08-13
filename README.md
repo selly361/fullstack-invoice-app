@@ -5,7 +5,7 @@
 ### [Live Site](url)
 
 - [Invoice App](#invoice-app)
-    - [Live Site](#live-site)
+  - [Live Site](#live-site)
   - [Overview](#overview)
   - [Built with](#built-with)
   - [Author](#author)
@@ -14,7 +14,7 @@
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Login and Register; Create, read, update, and delete invoices 
+- Login and Register; Create, read, update, and delete invoices
 - Receive form validations when trying to create/edit an invoice
 - Save draft invoices, and mark pending invoices as paid
 - Filter invoices by status (draft/pending/paid)
@@ -33,7 +33,10 @@
 ## Author
 
 - ### Seikou
+
   - [Portfolio](https://portfolio-selly361.vercel.app/)
 
 - ### Davidthus
-  - [Portfolio](url)
+  - [Portfolio](https://davidthus.vercel.app/)
+  - [Twitter](https://twitter.com/dvdthus)
+  - [Github](https://github.com/davidthus)
