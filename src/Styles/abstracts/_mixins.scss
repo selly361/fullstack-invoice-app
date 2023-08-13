@@ -1,5 +1,7 @@
+@use 'variables' as v;
+
 @mixin typography($font-size, $font-weight, $line-height, $letter-spacing) {
-  font-family: 'League Spartan';
+  font-family: v.$font-stack;
   font-size: $font-size;
   font-style: normal;
   font-weight: $font-weight;
