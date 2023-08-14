@@ -28,7 +28,7 @@ $max-width: 730px !default;
 
 /// Breakpoints map
 $breakpoints: (
-  'small': 375px,
-  'medium': 768px,
-  'large': 1440px
+  'sm': 375px,
+  'md': 768px,
+  'lg': 1440px
 ) !default;
