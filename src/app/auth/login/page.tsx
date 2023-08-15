@@ -1,4 +1,4 @@
-import { Logo } from '@/Icons'
+import { Logo } from '@/Assets/Icons'
 import Link from 'next/link'
 
 export default function Page() {
