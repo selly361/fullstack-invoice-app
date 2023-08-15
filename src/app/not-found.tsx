@@ -1,3 +1,5 @@
+'use client'
+
 import notFoundAnimation from '@/Assets/Animations/notFoundAnimation.json'
 import { Logo } from '@/Assets/Icons'
 import Lottie from 'lottie-react'
