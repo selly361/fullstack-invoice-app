@@ -8,31 +8,12 @@
   flex-direction: column;
   align-items: center;
 
-  .form__logo {
-    width: 65px;
-    height: 61.057px;
-    flex-shrink: 0;
-    margin-bottom: 30px;
-  }
-
-  .form__title {
-    color: #0c0e16;
-    margin-bottom: 9px;
-    text-align: center;
-  }
-
-  .form__description {
-    color: #0c0e16;
-    margin-bottom: 56px;
-    text-align: center;
-  }
-
   .form__social-logins-wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 7px;
-    margin-bottom: 30px;
+    margin: 56px auto 30px;
   }
 
   .form__divider {
