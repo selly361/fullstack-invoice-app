@@ -1,0 +1,34 @@
+// regular font stack
+$font-stack: 'League Spartan', sans-serif;
+
+// main colors
+$purple: #7c5dfa;
+$purpleHover: #9277ff;
+$red: #ec5757;
+$redHover: #9277ff;
+$grey: #888eb0;
+$white: #fff;
+
+// dark theme
+$darkText: #fff;
+$darkBg: #141625;
+$darkElementBg: #1e2139;
+$darkBorder: #252945;
+$darkLabel: #dfe3fa;
+
+// light theme
+$lightText: #0c0e16;
+$lightBg: #f8f8fb;
+$lightElementBg: #fff;
+$lightLabel: #7e88c3;
+$lightBorder: #dfe3fa;
+
+// max container width
+$max-width: 730px !default;
+
+/// Breakpoints map
+$breakpoints: (
+  'sm': 375px,
+  'md': 768px,
+  'lg': 1440px
+) !default;

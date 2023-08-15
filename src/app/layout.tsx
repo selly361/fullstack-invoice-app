@@ -1,5 +1,5 @@
-import { League_Spartan } from 'next/font/google'
 import type { Metadata } from 'next'
+import { League_Spartan } from 'next/font/google'
 
 export const metadata: Metadata = {
   title: 'Invoice App',
@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 }
 
 const leagueSpartan = League_Spartan({ subsets: ['latin'] })
-
 
 export default function RootLayout({
   children
