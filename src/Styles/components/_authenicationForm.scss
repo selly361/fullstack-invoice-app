@@ -16,33 +16,33 @@
     margin: 56px auto 30px;
   }
 
-  .form__divider {
+  &__divider {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     margin-bottom: 18px;
   }
 
-  .form__divider--lines {
+  &__divider--lines {
     color: #4d4d4d80;
     flex: 1;
     height: 1px;
     width: 100%;
   }
 
-  .form__divider--text {
+  &__divider--text {
     flex: 1;
     @include typography(16px, 500, normal, auto);
   }
 
-  .form__labels-group {
+  &__labels-group {
     display: flex;
     flex-direction: column;
     gap: 7px;
     margin-bottom: 11px;
   }
 
-  .form__submit {
+  &__submit {
     width: 100%;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -55,14 +55,14 @@
     margin-bottom: 18px;
   }
 
-  .form__alt-option-wrapper {
+  &__alt-option-wrapper {
     display: flex;
     gap: 3px;
 
-    .form__alt-option-question {
+    &__alt-option-question {
       color: #0c0e16;
     }
-    .form__alt-option-link {
+    &__alt-option-link {
       color: $purple;
       transition: 0.4s;
 
