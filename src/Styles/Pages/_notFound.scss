@@ -1,0 +1,28 @@
+.not-found {
+  width: 100%;
+  max-width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .not-found__animation-wrapper {
+    margin: 65px auto;
+  }
+
+  .not-found__anchor-wrapper {
+    display: flex;
+    gap: 3px;
+
+    .not-found__anchor--question {
+      color: #0c0e16;
+    }
+    .not-found__anchor--link {
+      color: $purple;
+      transition: 0.4s;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
