@@ -1,9 +1,11 @@
 import { Logo } from '@/Assets/Icons'
+import InvoiceIntro from '@/Components/invoiceIntro'
 import Link from 'next/link'
 
 export default function Page() {
   return (
     <form className="form">
+      <InvoiceIntro />
       <div className="form__social-logins-wrapper">
         <div>Continue with google</div>
         <div>Continue with github</div>
