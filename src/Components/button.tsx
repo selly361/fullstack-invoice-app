@@ -1,3 +1,4 @@
+import { Plus } from '@/Assets/Icons'
 import React from 'react'
 
 export enum BUTTONTYPES {
@@ -17,6 +18,12 @@ type ButtonProps = {
 
 function Button({ buttonType, htmlType, children }: ButtonProps) {
   let buttonClass = ''
+  const addIcon = (
+    <div className="whiteCircle">
+      <Plus />
+    </div>
+  )
+
   switch (buttonType) {
     case BUTTONTYPES.B1:
       buttonClass = 'button1'
@@ -39,6 +46,7 @@ function Button({ buttonType, htmlType, children }: ButtonProps) {
   }
   return (
     <button type={htmlType} className={`button ${buttonClass ?? ''}`}>
+      {buttonType === BUTTONTYPES.B1 && addIcon}
       {children}
     </button>
   )
