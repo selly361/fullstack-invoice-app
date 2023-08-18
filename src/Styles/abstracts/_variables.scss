@@ -1,34 +1,27 @@
-// regular font stack
-$font-stack: 'League Spartan', sans-serif;
 
-// main colors
-$purple: #7c5dfa;
-$purpleHover: #9277ff;
-$red: #ec5757;
-$redHover: #9277ff;
-$grey: #888eb0;
-$white: #fff;
+/* Font primary */
 
-// dark theme
-$darkText: #fff;
-$darkBg: #141625;
-$darkElementBg: #1e2139;
-$darkBorder: #252945;
-$darkLabel: #dfe3fa;
+$font-primary: 'League Spartan';
 
-// light theme
-$lightText: #0c0e16;
-$lightBg: #f8f8fb;
-$lightElementBg: #fff;
-$lightLabel: #7e88c3;
-$lightBorder: #dfe3fa;
 
-// max container width
-$max-width: 730px !default;
+/* Shared Colors */
 
-/// Breakpoints map
+$white: "hsl(0, 0%, 100%)";
+$black: "hsl(0, 0%, 0%)";
+$blackAlpha50: "hsla(0, 0%, 0%, 50%)";
+$purple: "hsl(252, 94%, 67%)";
+$purpleLight: "hsl(252, 100%, 73%)";
+$red: "hsl(0, 80%, 63%)";
+$redLight: "hsl(0, 100%, 80%)";
+$blueGrayish: "hsl(231, 36%, 63%)";
+$grayLight: "hsl(231, 20%, 36%)";
+$grayMedium: "hsl(225, 14%, 53%)";
+
+
+/* Media query breakpoints */
+
 $breakpoints: (
   'sm': 375px,
   'md': 768px,
-  'lg': 1440px
-) !default;
+  'lg': 1068px
+)
