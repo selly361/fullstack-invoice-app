@@ -27,11 +27,11 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "libs": ["./src/libs"],
-      "components": ["./src/components"],
-      "hooks": ["./src/hooks"],
-      "utils": ["./src/utils"],
-      "styles": ["./src/styles"]
+      "libs": ["./src/Libs"],
+      "components": ["./src/Components"],
+      "hooks": ["./src/Hooks"],
+      "utils": ["./src/Utils"],
+      "styles": ["./src/Styles"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
