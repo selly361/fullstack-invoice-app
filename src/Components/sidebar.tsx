@@ -4,7 +4,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <aside>
+    <aside className="sidebar">
       <SidebarIcon />
       <div className="sidebar__bottom-group">
         <Moon />
