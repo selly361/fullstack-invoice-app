@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={leagueSpartan.className}>
+      <body className={leagueSpartan.className + ' body'}>
         <Sidebar />
         {children}
       </body>
