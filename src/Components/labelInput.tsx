@@ -1,9 +1,20 @@
 import React from 'react'
 
-function LabelInput({ register, name }: { register: any; name: string }) {
+function LabelInput({
+  register,
+  name,
+  children,
+  required
+}: {
+  register: any
+  name: string
+  children: React.ReactNode
+  required: boolean
+}) {
   return (
     <label>
-      <input type="text" {...register(name)} />
+      {children}
+      <input type="text" {...(register(name), { required })} />
     </label>
   )
 }
