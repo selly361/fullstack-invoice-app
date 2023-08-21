@@ -1,0 +1,8 @@
+@use "../abstracts/mixins" as *;
+
+.main {
+  @include max-w(730px);
+  @include flex(flex-start, center, column);
+  margin: 72px auto 4px;
+  gap: 65px;
+}
