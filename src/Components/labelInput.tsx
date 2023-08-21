@@ -12,9 +12,9 @@ function LabelInput({
   required: boolean
 }) {
   return (
-    <label>
+    <label class="label">
       {children}
-      <input type="text" {...(register(name), { required })} />
+      <input class="label__input" type="text" {...(register(name), { required })} />
     </label>
   )
 }
