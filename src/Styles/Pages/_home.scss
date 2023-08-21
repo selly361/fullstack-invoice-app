@@ -5,4 +5,26 @@
   @include flex(flex-start, center, column);
   margin: 72px auto 4px;
   gap: 65px;
+
+  .main__header--home {
+    @include flex(space-between, center, row);
+    width: 100%;
+
+    .main__info-container {
+      @include flex(space-between, flex-start, column);
+      gap: 8px;
+
+      // .main__title {
+      // color
+      // }
+      // .main__info {
+      // color
+      // }
+    }
+
+    .main__actions {
+      @include flex(flex-end, center, row);
+      gap: 40px;
+    }
+  }
 }
