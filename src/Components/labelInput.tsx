@@ -14,7 +14,7 @@ function LabelInput({
   return (
     <label class="label">
       {children}
-      <input class="label__input" type="text" {...(register(name), { required })} />
+      <input type="text" {...(register(name), { required })} />
     </label>
   )
 }
