@@ -16,3 +16,22 @@ label {
     padding-bottom: 16px;
   }
 }
+
+/* Custom Scroll-bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10%;
+  background: var(--mainBg);
+}
+
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  background: var(--scrollBg);
+}
