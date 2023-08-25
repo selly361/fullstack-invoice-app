@@ -1,0 +1,27 @@
+@use "../abstracts/mixins" as *;
+
+.main {
+  @include max-w(730px);
+  @include flex(flex-start, center, column, 65px);
+  margin: 72px auto 4px;
+
+  .main__header--home {
+    @include flex(space-between, center, row);
+    width: 100%;
+
+    .main__info-container {
+      @include flex(space-between, flex-start, column, 8px);
+
+      // .main__title {
+      // color
+      // }
+      // .main__info {
+      // color
+      // }
+    }
+
+    .main__actions {
+      @include flex(flex-end, center, row, 40px);
+    }
+  }
+}

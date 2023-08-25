@@ -11,6 +11,31 @@
   letter-spacing: $letter-spacing;
 }
 
+@mixin flex(
+  $justify: flex-start,
+  $align: flex-start,
+  $direction: row,
+  $gap: 0
+) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  gap: $gap;
+}
+
+@mixin defaultButton {
+  border-radius: 24px;
+  height: 48px;
+  @include flex($justify: center, $align: center, $gap: 16px);
+  padding-inline: 24px;
+  outline: none;
+  border: none;
+}
+
+@mixin max-w($max) {
+  max-width: $max;
+  width: 100%;
 /* Mixin to manage responsive breakpoints */
 
 @mixin breakpoint($breakpoint) {
