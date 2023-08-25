@@ -1,16 +1,17 @@
+@use "../abstracts/mixins" as *;
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-label {
-  display: flex;
-  flex-direction: column;
+.label {
+  @include flex(flex-start, flex-start, column);
   gap: 10px;
-  align-items: flex-start;
 
   input {
+    width: 100%;
     padding-inline: 20px;
     padding-top: 16px;
     padding-bottom: 16px;
