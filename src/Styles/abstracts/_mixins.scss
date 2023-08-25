@@ -1,7 +1,9 @@
-@use 'variables' as v;
+@use 'variables' as *;
+
+/* Typography mixin handler */
 
 @mixin typography($font-size, $font-weight, $line-height, $letter-spacing) {
-  font-family: v.$font-stack;
+  font-family: $font-primary;
   font-size: $font-size;
   font-style: normal;
   font-weight: $font-weight;
@@ -31,4 +33,10 @@
 @mixin max-w($max) {
   max-width: $max;
   width: 100%;
+/* Mixin to manage responsive breakpoints */
+
+@mixin breakpoint($breakpoint) {
+  @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+  }
 }
