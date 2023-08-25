@@ -1,0 +1,52 @@
+@use '../Abstracts/mixins' as *;
+@use '../Abstracts/variables' as *;
+
+.button {
+  @include defaultButton;
+}
+
+.button1 {
+  background: $purple;
+  color: $white;
+
+  &:hover {
+    background: $purpleHover;
+  }
+}
+.button2 {
+  background: $purple;
+  color: $white;
+
+  &:hover {
+    background: $purpleHover;
+  }
+}
+.button3 {
+}
+.button4 {
+}
+.button5 {
+  background: $red;
+  color: $white;
+
+  &:hover {
+    background: $redHover;
+  }
+}
+.button6 {
+  background: $white;
+  color: $lightLabel;
+
+  &:hover {
+    background: $darkLabel;
+  }
+}
+
+.whiteCircle {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -7,31 +7,12 @@
   flex-direction: column;
   align-items: center;
 
-  &__logo {
-    width: 65px;
-    height: 61.057px;
-    flex-shrink: 0;
-    margin-bottom: 30px;
-  }
-
-  &__title {
-    color: #0c0e16;
-    margin-bottom: 9px;
-    text-align: center;
-  }
-
-  &__description {
-    color: #0c0e16;
-    margin-bottom: 56px;
-    text-align: center;
-  }
-
-  &__social-logins-wrapper {
+  .form__social-logins-wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 7px;
-    margin-bottom: 30px;
+    margin: 56px auto 30px;
   }
 
   &__divider {
