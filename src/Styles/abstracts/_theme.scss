@@ -1,0 +1,115 @@
+:root[data-theme="dark"] {
+
+    /* Components */
+
+    --mainBg: hsl(231, 30%, 11%);
+    --headerBg: hsl(233, 31%, 17%);
+    --invoiceItemBg: hsl(233, 31%, 17%);
+    --invoiceItemShadow: hsla(231, 38%, 45%, 10%);
+    --viewBg: hsl(231, 31%, 17%);
+    --ViewShadow: hsla(231, 38%, 45%, 10%);
+    --viewSummaryBg: hsl(233, 30%, 21%);
+    --viewSummaryFooterBg: hsl(231, 28%, 7%);
+    --formBg: hsl(231, 30%, 11%);
+    --scrollBg: hsl(233, 30%, 21%);
+    --inputBg: hsl(233, 31%, 17%);
+    --inputBorder: hsl(233, 30%, 21%);
+    --dropdownSelectorBg: hsl(233, 30%, 21%);
+    --dropdownShadow: hsla(0, 0%, 0%, 25%);
+    --dropdownSelectorBorder: hsl(233, 31%, 17%);
+    --dropdownFilterBg: hsl(233, 30%, 21%);
+    --dropdownCheckboxBg: hsl(233, 31%, 17%);
+    --dropdownFilterShadow: rgba(0, 0, 0, 25%);
+    --deleteModalBg: hsl(233, 31%, 17%);
+
+
+    /* Typography */
+
+    --textPrimary: hsl(0, 0%, 100%);
+    --textSecondary: hsl(231, 75%, 93%);
+    --textTertiary: hsl(231, 75%, 93%);
+
+    /* Statuses */
+
+    --statusPaid: hsl(160, 67%, 52%);
+    --statusPaidBg: hsla(160, 67%, 52%, 5.71%);
+    --statusPending: hsl(34, 100%, 50%);
+    --statusPendingBg: hsla(34, 100%, 50%, 5.71%);
+    --statusDraft: hsl(231, 75%, 93%);
+    --statusDraftBg: hsla(231, 75%, 93%, 5.71%);
+
+    /* Buttons */
+
+    ---btnPrimary: hsl(252, 94%, 67%);
+    ---btnPrimaryHover: hsl(252, 100%, 73%);
+
+    ---btnSecondary: hsl(233, 30%, 21%);
+    ---btnSecondaryHover: hsl(233, 30%, 15%);
+
+    ---btnSave: hsl(231, 20%, 27%);
+    ---btnSaveHover: hsl(233, 31%, 17%);
+
+    ---btnDelete: hsl(0, 80%, 63%);
+    ---btnDeleteHover: hsl(0, 100%, 80%);
+
+    ---btnNewItem: hsla(233, 30%, 21%);
+    ---btnNewItemHover: hsl(233, 30%, 15%);
+
+}
+
+
+:root[data-theme="light"] {
+
+    --mainBg: hsl(240, 27%, 98%);
+    --headerBg: hsl(231, 20%, 27%);
+    --invoiceItemBg: hsl(0, 0%, 100%);
+    --invoiceItemShadow: hsla(231, 38%, 45%, 10%);
+    --viewBg: hsl(0, 0%, 100%);
+    --viewShadow: hsl(231, 38%, 45%, 10%);
+    --viewSummaryBg: hsl(231, 67%, 99%);
+    --viewSummaryFooterBg: hsl(231, 20%, 27%);
+    --formBg: hsl(0, 0%, 100%);
+    --scrollBg: hsl(231, 75%, 93%);
+    --inputBg: hsl(0, 0%, 100%);
+    --inputBorder: hsl(231, 75%, 93%);
+    --dropdownSelectorBg: hsl(0, 0%, 100%);
+    --dropdownShadow: hsla(231, 38%, 45%, 25%);
+    --dropdownSelectorBorder: hsl(231, 75%, 93%);
+    --dropdownFilterBg: hsl(0, 0%, 100%);
+    --dropdownCheckboxBg: hsl(231, 73%, 93%);
+    --dropdownFilterShadow: rgba(72, 84, 159, 25%);
+    --deleteModalBg: hsl(0, 0%, 100%);
+
+    /* Typography */
+
+    --textPrimary: hsl(231, 28%, 7%);
+    --textSecondary: hsl(231, 36%, 63%);
+    --textTertiary: hsl(231, 20%, 61%);
+
+    /* Statuses */
+
+    --statusPaid: hsl(160, 67%, 52%);
+    --statusPaidBg: hsla(160, 67%, 52%, 5.71%);
+    --statusPending: hsl(34, 100%, 50%);
+    --statusPendingBg: hsla(34, 100%, 50%, 5.71%);
+    --statusDraft: hsl(231, 20%, 27%);
+    --statusDraftBg: hsla(231, 20%, 27%, 5.71%);
+
+    /* Buttons */
+
+    --btnPrimary: hsl(252, 94%, 67%);
+    --btnPrimaryHover: hsl(252, 100%, 73%);
+
+    --btnSecondary: hsl(231, 67%, 99%);
+    --btnSecondaryHover: hsl(231, 73%, 93%);
+
+    --btnSave: hsl(231, 20%, 27%);
+    --btnSaveHover: hsl(231, 28%, 7%);
+
+    --btnDelete: hsl(0, 80%, 63%);
+    --btnDeleteHover: hsl(0, 100%, 80%);
+
+    --btnNewItem: hsl(231, 67%, 99%);
+    --btnNewItemHover: hsl(231, 73%, 93%);
+
+}
