@@ -1,0 +1,36 @@
+.sidebar {
+  min-height: 100vh;
+  width: clamp(80px, 8vw, 103px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0px 20px 20px 0px;
+  background: #373b53;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+
+  .sidebar__bottom-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .sidebar__divider {
+      background: #494e6e;
+      height: 1px;
+      width: 100%;
+    }
+
+    .sidebar__profile-picture {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+}
