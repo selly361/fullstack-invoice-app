@@ -1,21 +1,21 @@
-@use '../abstracts' as a;
+@use '../abstracts' as *;
 
 .headingM {
-  @include a.typography(32px, 700, normal, -1px);
+  @include typography(32px, 700, normal, -1px);
 }
 
 .headingL {
-  @include a.typography(20px, 700, normal, -0.625px);
+  @include typography(20px, 700, normal, -0.625px);
 }
 
 .headingS {
-  @include a.typography(16px, 700, 24px, -0.8px);
+  @include typography(16px, 700, 24px, -0.8px);
 }
 
 .bodyL {
-  @include a.typography(12px, 500, 15px, -0.25px);
+  @include typography(12px, 500, 15px, -0.25px);
 }
 
 .bodyS {
-  @include a.typography(11px, 500, 18px, -0.229px);
+  @include typography(11px, 500, 18px, -0.229px);
 }

@@ -1,6 +1,7 @@
 import { Sidebar } from '@/Components'
-import type { Metadata } from 'next'
+import "Styles"
 import { League_Spartan } from 'next/font/google'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Invoice App',
